@@ -1,0 +1,387 @@
+2014-04-05 02:08:19 Error: [MissingControllerException] Controller class ConsultasController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultasController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/consultas
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 02:08:25 Error: [MissingControllerException] Controller class ConsultaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultaController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/consulta
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 02:08:34 Error: [MissingControllerException] Controller class ConsultaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultaController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Consulta
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 02:09:07 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Agenda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 18:49:02 Error: [MissingControllerException] Controller class ClientesController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientesController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 19:09:16 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\teamsw\app\View\Layouts\default.ctp, line 43]
+2014-04-05 19:09:16 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:23:44 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 15]
+2014-04-05 19:23:44 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:23:54 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 15]
+2014-04-05 19:23:54 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:24:01 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 15]
+2014-04-05 19:24:01 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:24:53 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 17]
+2014-04-05 19:24:53 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:25:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 17]
+2014-04-05 19:25:07 Error: [InternalErrorException] Internal Server Error
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 19:26:05 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\teamsw\app\View\Dependentes\add.ctp, line 17]
+2014-04-05 19:26:05 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /teamsw/dependentes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 20:11:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\ClientesController.php, line 51]
+2014-04-05 20:11:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teamsw/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 20:23:22 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\teamsw\app\Controller\ClientesController.php, line 65]
+2014-04-05 20:23:22 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /teamsw/clientes/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 65, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 65, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 20:43:15 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\FuncionariosController.php, line 55]
+2014-04-05 20:43:15 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /teamsw/funcionarios/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 23:27:10 Error: [MissingControllerException] Controller class ConsultasController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultasController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/consultas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:27:24 Error: [MissingControllerException] Controller class ConsultasController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultasController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/consultas
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:27:32 Error: [MissingControllerException] Controller class ConsultasController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultasController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/Consultas
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:27:38 Error: [MissingControllerException] Controller class AgendaController could not be found.
+Exception Attributes: array (
+  'class' => 'AgendaController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/Agenda
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:29:45 Error: [MissingControllerException] Controller class ConsultasController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultasController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/Consultas
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:33:02 Error: [MissingControllerException] Controller class TipoAtendimentoController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoAtendimentoController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/tipoAtendimento
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:33:27 Error: [MissingControllerException] Controller class FormaAtendimentoController could not be found.
+Exception Attributes: array (
+  'class' => 'FormaAtendimentoController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/formaAtendimento
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-05 23:34:46 Error: [MissingControllerException] Controller class EderecosController could not be found.
+Exception Attributes: array (
+  'class' => 'EderecosController',
+  'plugin' => NULL,
+)
+Request URL: /teamsw/ederecos/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-06 00:22:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\EspecialidadesController.php, line 59]
+2014-04-06 00:22:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teamsw/especialidades/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 00:22:52 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\EspecialidadesController.php, line 59]
+2014-04-06 00:22:52 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teamsw/especialidades/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 00:24:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\AgendasController.php, line 59]
+2014-04-06 00:24:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teamsw/agendas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 00:25:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\teamsw\app\Controller\FormaAtendimentosController.php, line 58]
+2014-04-06 00:25:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /teamsw/forma_atendimentos/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:24:37 Error: Fatal Error (1): Class 'Model' not found in [C:\xampp\htdocs\teamsw\app\Model\AppModel.php, line 23]
+2014-04-06 02:24:37 Error: [FatalErrorException] Class 'Model' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Model' n...', 'C:\xampp\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Model' n...', 'C:\xampp\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Model' n...', 'C:\xampp\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:25:01 Error: Fatal Error (1): Class 'CakeValidationSet' not found in [C:\xampp\htdocs\teamsw\lib\Cake\Model\ModelValidator.php, line 347]
+2014-04-06 02:25:01 Error: [FatalErrorException] Class 'CakeValidationSet' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 347)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 347, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 347, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:25:30 Error: Fatal Error (1): Class 'ModelValidator' not found in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Model.php, line 3731]
+2014-04-06 02:25:30 Error: [FatalErrorException] Class 'ModelValidator' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:25:58 Error: Fatal Error (1): Class 'ModelValidator' not found in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Model.php, line 3731]
+2014-04-06 02:25:58 Error: [FatalErrorException] Class 'ModelValidator' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:26:24 Error: Fatal Error (1): Class 'ModelValidator' not found in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Model.php, line 3731]
+2014-04-06 02:26:24 Error: [FatalErrorException] Class 'ModelValidator' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ModelVal...', 'C:\xampp\htdocs...', 3731, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:28:39 Error: Fatal Error (1): Class 'CakeValidationRule' not found in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Validator\CakeValidationSet.php, line 88]
+2014-04-06 02:28:39 Error: [FatalErrorException] Class 'CakeValidationRule' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 88, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeVali...', 'C:\xampp\htdocs...', 88, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:33:15 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Validator\CakeValidationSet.php, line 248]
+2014-04-06 02:33:15 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 248)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 248, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 248, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:33:29 Error: Fatal Error (1): Class CakeValidationSet contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...) in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Validator\CakeValidationSet.php, line 248]
+2014-04-06 02:33:29 Error: [FatalErrorException] Class CakeValidationSet contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...)
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class CakeValid...', 'C:\xampp\htdocs...', 248)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class CakeValid...', 'C:\xampp\htdocs...', 248, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class CakeValid...', 'C:\xampp\htdocs...', 248, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:33:51 Error: Fatal Error (1): Class CakeValidationSet contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...) in [C:\xampp\htdocs\teamsw\lib\Cake\Model\Validator\CakeValidationSet.php, line 257]
+2014-04-06 02:33:51 Error: [FatalErrorException] Class CakeValidationSet contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (ArrayAccess::offsetExists, ArrayAccess::offsetGet, ArrayAccess::offsetSet, ...)
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class CakeValid...', 'C:\xampp\htdocs...', 257)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class CakeValid...', 'C:\xampp\htdocs...', 257, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class CakeValid...', 'C:\xampp\htdocs...', 257, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:37:28 Error: Fatal Error (1): Class 'I18n' not found in [C:\xampp\htdocs\teamsw\lib\Cake\basics.php, line 556]
+2014-04-06 02:37:28 Error: [FatalErrorException] Class 'I18n' not found
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'I18n' no...', 'C:\xampp\htdocs...', 556)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'I18n' no...', 'C:\xampp\htdocs...', 556, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'I18n' no...', 'C:\xampp\htdocs...', 556, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 02:38:34 Error: Fatal Error (1): Call to undefined method I18n::translate() in [C:\xampp\htdocs\teamsw\lib\Cake\basics.php, line 556]
+2014-04-06 02:38:34 Error: [FatalErrorException] Call to undefined method I18n::translate()
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 556)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 556, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 556, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 03:08:57 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\teamsw\app\Model\Pessoa.php, line 90]
+2014-04-06 03:08:57 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 90, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 90, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 03:18:44 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\teamsw\app\Model\Pessoa.php, line 90]
+2014-04-06 03:18:44 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /teamsw/pessoas/add
+Stack Trace:
+#0 C:\xampp\htdocs\teamsw\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 90, Array)
+#2 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 90, Array)
+#3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
