@@ -385,3 +385,68 @@ Stack Trace:
 #3 C:\xampp\htdocs\teamsw\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-06 15:48:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/index.php(41): require('/Applications/X...')
+#2 {main}
+2014-04-06 15:50:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/index.php(41): require('/Applications/X...')
+#2 {main}
+2014-04-06 15:50:51 Error: [MissingActionException] Action ClientesController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'css',
+)
+Request URL: /wagtvc/moduloConsultas/index.php/clientes/css/clientes/css/cake.generic.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-04-06 15:52:05 Error: [MissingActionException] Action ClientesController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'css',
+)
+Request URL: /wagtvc/moduloConsultas/index.php/clientes/css/clientes/css/cake.generic.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-04-06 15:54:32 Error: [MissingActionException] Action ClientesController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'css',
+)
+Request URL: /wagtvc/moduloConsultas/index.php/clientes/css/clientes/css/cake.generic.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-04-06 16:07:45 Error: [MissingControllerException] Controller class ConsultaController could not be found.
+Exception Attributes: array (
+  'class' => 'ConsultaController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/consulta
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
