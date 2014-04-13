@@ -14,44 +14,77 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		//echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('menu');
+		echo $this->Html->css('principal');
+		echo $this->Html->css('bt-salvar');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
+		echo $this->Html->css('bootstrap');
+		echo $this->Html->script('bootstrap');
 		echo $this->fetch('script');
 	?>
 </head>
 <body>
-	<div id="container">
-<!--
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-		</div>
--->
-		<div id="content">
+	<header id="topo"></header>
+		<nav>
+		<ul id="menu">
+			<li>
+			<a href="#">Home</a>
+			</li>
 
-			<?php echo $this->Session->flash(); ?>
+			<li>
+			<span>Agenda</span>
+			<ol>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ol>
+			</li>
 
-			<?php echo $this->fetch('content'); ?>
-		</div>
+		<!--
+			<li>
+			<a href="#">Segundo</a>
+			</li>
+		-->
 
-<!--
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-		</div>
--->
-	</div>
-	<?php echo $this->element('sql_dump'); ?>
+			<li>
+			<span>Consultas</span>
+			<ol>
+				<li><a href="#">Link 6</a></li>
+				<li><a href="#">Link 7</a></li>
+				<li><a href="#">Link 8</a></li>
+			</ol>
+
+			</li>
+		<!--
+			<li><a href="#">Quarto</a></li>
+		-->
+
+			<li class="selected">
+			<span>Cadastro</span>
+			<ol>
+				<li><a href="#">Link 9</a></li>
+				<li><a href="#">Link 10</a></li>
+				<li><a href="#">Link 11</a></li>
+				<li><a href="#">Link 12</a></li>
+				<li><a href="#">Link 13</a></li>
+			</ol>
+			</li>
+		</ul>
+	</nav>
+
+	<section id="content">
+
+		<?php echo $this->Session->flash(); ?>
+
+		<?php echo $this->fetch('content'); ?>
+	</section>
 </body>
 </html>

@@ -450,3 +450,134 @@ Request URL: /wagtvc/moduloConsultas/consulta
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-04-13 14:35:53 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 106]
+2014-04-13 14:35:53 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 14:35:58 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 106]
+2014-04-13 14:35:58 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 14:36:06 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 106]
+2014-04-13 14:36:06 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 14:36:22 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 106]
+2014-04-13 14:36:22 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 106, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 15:04:16 Error: [MissingActionException] Action FuncionariosController::submit() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'submit',
+)
+Request URL: /wagtvc/moduloConsultas/funcionarios/submit
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-13 15:06:29 Error: [MissingActionException] Action FuncionariosController::submit() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'submit',
+)
+Request URL: /wagtvc/moduloConsultas/funcionarios/submit
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-13 15:08:10 Error: [MissingActionException] Action FuncionariosController::submit() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'submit',
+)
+Request URL: /wagtvc/moduloConsultas/funcionarios/submit
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-13 15:08:29 Error: [MissingActionException] Action FuncionariosController::submit() could not be found.
+Exception Attributes: array (
+  'controller' => 'FuncionariosController',
+  'action' => 'submit',
+)
+Request URL: /wagtvc/moduloConsultas/funcionarios/submit
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-13 15:15:12 Error: Fatal Error (1): Call to undefined method View::link() in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 107]
+2014-04-13 15:15:12 Error: [FatalErrorException] Call to undefined method View::link()
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 107)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 107, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 107, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 15:15:40 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/Funcionario/add/class:bt-salvar
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-13 15:18:31 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/Funcionario/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-13 15:20:06 Error: [MissingControllerException] Controller class FuncionarioController could not be found.
+Exception Attributes: array (
+  'class' => 'FuncionarioController',
+  'plugin' => NULL,
+)
+Request URL: /wagtvc/moduloConsultas/Funcionario/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-13 15:40:08 Error: Fatal Error (4): syntax error, unexpected T_ARRAY in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Funcionarios/add.ctp, line 108]
+2014-04-13 15:40:08 Error: [FatalErrorException] syntax error, unexpected T_ARRAY
+Request URL: /wagtvc/moduloConsultas/Funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 108, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 108, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
