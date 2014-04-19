@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/* CLASS **************************************************************/
+
+/* ID *****************************************************************/
+
+
+/* HERANÇA ************************************************************/
+
+
+/* INICIALIZAÇÃO ******************************************************/
+@font-face{
+	font-family: '';
+	src: url('');
+}
+
+*{
+	outline: none;
+}
+
+*, x:-moz-any-link, x:default{
+	letter-spacing:-0.1px;
+}
+
+h1, x:-moz-any-link, x:default{
+	letter-spacing:-3px;
+}
+
+header, footer, article, aside, nav, section{
+	display:block;
+}
+
+/* COLUNAS ************************************************************/
+.coluna-esquerda{
+	float: left;
+	width: 345px;
+}
+
+.coluna-central{
+	float: left;
+	margin-left: 25px;
+	width: 345px;
+}
+
+.coluna-direita{
+	float: right;
+	width: 345px;
+	margin-right: 2px;
+}
+
+/* DADOS **************************************************************/
+
+#content{
+	margin-left: 52px;
+	width: 1154px;
+	min-height: 650px;
+	border-right: 3px solid #CCCCCC;
+	border-left: 3px solid #CCCCCC;
+	overflow: hidden;
+
+}
+section{
+	margin-top:0;
+	background-color: #FBFBFB;
+}
+section .superior{
+	margin-top:0px;
+}
+
+section label{
+	float:left;
+	text-align:right;
+	margin-right:15px;
+	margin-bottom:10px;
+	width:138px;
+	font-size:13px;
+	height:18px;
+	line-height: 20px;
+	cursor: auto;
+}
+
+section form input:not([type="submit"]).tamanho-medio{
+	height:15px;
+	width:143px;
+	padding:3px;
+	/*border-radius:4px;*/
+}
+
+.tamanho-medio{
+	height: 22px;
+	width:150px;
+}
+
+.tamanho-pequeno{
+	height: 22px;
+	width:80px;
+}
+
+fieldset{
+	border: #CCCCCC 1px solid;
+	font-size:16px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-left: 40px;
+	margin-right:10px;
+	margin-bottom:20px;
+	width:93%;
+}
+
+legend{
+	font-size:13px;
+	color:#BABABA;
+}
+
+.input{
+	clear:both;
+	padding:0;
+	height:23px;
+}
+
+.selected:after{
+	border-color:transparent transparent #EEE transparent ;
+	border-style:solid;
+	border-width:10px;
+	content:"";
+	height:0;
+	position:absolute;
+	top:126px;
+	width:0;
+}
+
+.titulo{
+	margin-top:	20px;
+	margin-bottom:20px;
+	font-size:30px;
+	font-weight:bold;
+	text-align:left;
+	margin-left:40px;
+	color:#707070;
+}
+
+/*********** Botões *********************************/
+[class*="bt"]{
+    cursor: pointer;
+}
+footer .bt-salvar, .submit {
+	position:absolute;
+	float:right;
+	display:block;
+	width:72px;
+	right:90px;
+	margin-top:20px;
+}
