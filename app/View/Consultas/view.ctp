@@ -1,7 +1,6 @@
 <div class="consultas view">
 <h2><?php echo __('Consulta'); ?></h2>
 	<dl>
-	
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
 			<?php echo h($consulta['Consulta']['id']); ?>
