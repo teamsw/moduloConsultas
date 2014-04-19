@@ -581,3 +581,1074 @@ Stack Trace:
 #3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-19 17:21:49 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:22:22 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:25:50 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:25:54 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:27:57 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-19 17:28:01 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-19 17:33:02 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:33:02 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:41:34 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:41:34 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:41:37 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:41:37 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:13 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:13 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:16 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:46 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:46 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:51 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:51 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:55 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:46:58 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:46:58 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:47:04 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:47:04 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:47:04 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:47:04 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:47:39 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:47:39 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:47:49 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:47:49 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:47:49 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:47:49 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:49:32 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 19]
+2014-04-19 17:49:32 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:49:35 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 19]
+2014-04-19 17:49:35 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 19, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 19, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:08 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:08 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:15 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:17 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:17 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:25 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:25 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:28 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:28 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:54:33 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:54:33 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:55:42 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:55:42 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:55:48 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:56:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:56:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:56:44 Error: [MissingPluginException] Plugin FilterResults could not be found.
+Exception Attributes: array (
+  'plugin' => 'FilterResults',
+)
+Request URL: /wagtvc/moduloConsultas/funcionarios/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(365): CakePlugin::path('FilterResults')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(226): App::pluginPath('FilterResults')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(547): App::path('Controller/Comp...', 'FilterResults')
+#3 [internal function]: App::load('FilterComponent')
+#4 [internal function]: spl_autoload_call('FilterComponent')
+#5 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(110): class_exists('FilterComponent')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('FilterResults.F...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(FuncionariosController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FuncionariosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-19 17:57:06 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:57:06 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:57:06 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:57:06 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:57:12 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:57:12 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:57:21 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:57:21 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 17:57:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 17:57:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:02:33 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:02:33 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:07:30 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:07:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:07:42 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:07:42 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:07:44 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:07:44 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:08:29 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:08:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:08:30 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:08:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:13:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 18]
+2014-04-19 18:13:45 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:14:13 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:14:13 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:14:16 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:14:16 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:14:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 81]
+2014-04-19 18:14:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 81, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 81, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:18:41 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:18:41 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:18:43 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:18:43 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:18:48 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:18:48 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:19:59 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:19:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:20:06 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:20:06 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:20:08 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:20:08 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:22:06 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:22:06 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:24:13 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:24:13 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:24:16 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:24:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:24:48 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:24:48 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:26:44 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 30]
+2014-04-19 18:26:44 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 30, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:30:09 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 35]
+2014-04-19 18:30:09 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/X...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/X...', 35, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/X...', 35, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:31:37 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 46]
+2014-04-19 18:31:37 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:31:40 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 46]
+2014-04-19 18:31:40 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:31:48 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 46]
+2014-04-19 18:31:48 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:31:52 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 46]
+2014-04-19 18:31:52 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 46, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:32:22 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:32:22 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:32:23 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:32:23 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:34:27 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:34:27 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:34:27 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:34:27 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:34:59 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:34:59 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:35:02 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:35:02 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:35:37 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:35:37 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:35:44 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:35:44 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:35:45 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:35:45 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:35:52 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 10]
+2014-04-19 18:35:52 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:36:14 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 7]
+2014-04-19 18:36:14 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:36:38 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 7]
+2014-04-19 18:36:38 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:36:54 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 7]
+2014-04-19 18:36:54 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:37:06 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 7]
+2014-04-19 18:37:06 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:37:09 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/login.ctp, line 7]
+2014-04-19 18:37:09 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 7, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:39:40 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:39:40 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:43:28 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Layouts/login.ctp, line 6]
+2014-04-19 18:43:28 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:43:31 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Layouts/login.ctp, line 6]
+2014-04-19 18:43:31 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 6, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:45:13 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:45:13 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:46:06 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 31]
+2014-04-19 18:46:06 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /wagtvc/moduloConsultas/users/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:56:53 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:56:53 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:57:56 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:57:56 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:57:58 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:57:58 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:59:14 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:59:14 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:59:26 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:59:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 18:59:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 8]
+2014-04-19 18:59:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 8, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:00:06 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 9]
+2014-04-19 19:00:06 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:00:08 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 9]
+2014-04-19 19:00:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 9, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:00:21 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 10]
+2014-04-19 19:00:21 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:00:59 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 10]
+2014-04-19 19:00:59 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 19:01:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Users/add.ctp, line 10]
+2014-04-19 19:01:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 10, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:44:40 Error: [MissingActionException] Action UsersController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logout',
+)
+Request URL: /wagtvc/moduloConsultas/users/logout
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-19 20:46:02 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 34]
+2014-04-19 20:46:02 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 34, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 34, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:46:06 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/Controller/UsersController.php, line 34]
+2014-04-19 20:46:06 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE
+Request URL: /wagtvc/moduloConsultas/users/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 34, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 34, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:58:54 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Clientes/add.ctp, line 54]
+2014-04-19 20:58:54 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /wagtvc/moduloConsultas/clientes/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 54, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 54, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:59:18 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Clientes/add.ctp, line 53]
+2014-04-19 20:59:18 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/clientes/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 53, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 53, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 20:59:20 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/app/View/Clientes/add.ctp, line 53]
+2014-04-19 20:59:20 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /wagtvc/moduloConsultas/clientes/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 53, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 53, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wagtvc/moduloConsultas/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

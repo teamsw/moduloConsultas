@@ -1,59 +1,81 @@
-<!--<div class="clientes form">-->
 <?php echo $this->Form->create('Cliente'); ?>
-	<fieldset>
-		<legend><?php echo __('Cliente'); ?></legend>
+<section class="superior"> <!---section superior--->
+
+	<header class="titulo">Cadastro de Cliente</header>
+
+<fieldset>
+	<legend><?php echo __('Dados Cliente'); ?></legend>
+
+	<section class="coluna-esquerda">
+		<?php
+			echo $this->Form->input('Pessoa.nome',array('id' =>'pessoaNome_cliente','class' => 'tamanho-medio','label' => 'Nome:'));
+			echo $this->Form->input('Pessoa.numeroPronturario',array('id' =>'pessoaNumeroPronturario_cliente','class' => 'tamanho-medio','label' => 'Numero Pronturario:'));
+			echo $this->Form->input('Pessoa.escolaridade',array('id' =>'pessoaEscolaridade_cliente','class' => 'tamanho-medio','label' => 'Escolaridade:'));
+			echo $this->Form->input('Pessoa.altura',array('id' =>'pessoaAltura_cliente','class' => 'tamanho-medio','label' => 'Altura:'));
+			echo $this->Form->input('Pessoa.filiacao',array('id' =>'pessoaFiliacao_cliente','class' => 'tamanho-medio','label' => 'Filiação:'));
+
+		?>
+	</section>
+
+	<section class="coluna-central" >
+		<?php
+			echo $this->Form->input('Pessoa.cpf_cnpj',array('id' =>'pessoaCpfCnpj_cliente','class' => 'tamanho-medio','label' => 'Cpf/Cnpj:'));
+			echo $this->Form->input('Pessoa.estadoCivil',array('id' =>'pessoaEstadoCivil_cliente','class' => 'tamanho-medio','label' => 'Estado Civil:'));
+			echo $this->Form->input('Pessoa.profissao',array('id' =>'pessoaProfissao_cliente','class' => 'tamanho-medio','label' => 'Profissao:'));
+			echo $this->Form->input('Pessoa.sexo',array('id' =>'pessoaSexo_cliente','class' => 'tamanho-medio','label' => 'Sexo:'));
+			echo $this->Form->input('Titular',array('id' =>'titular_cliente','label' => 'Titular:','type' => 'select','options' => array('','Sim','Nao')));
+		?>
+	</section>
+
+	<section class="coluna-direita" >
+		<?php
+			echo $this->Form->input('Pessoa.rg',array('id' =>'pessoaRg_cliente','class' => 'tamanho-medio','label' => 'Rg:'));
+			echo $this->Form->input('Pessoa.dataNascimento',array('id' =>'pessoaDataNascimento_cliente','class' => 'tamanho-medio','label' => 'Data Nascimento:','type' => 'text'));
+			echo $this->Form->input('Pessoa.peso',array('id' =>'pessoaPeso_cliente','class' => 'tamanho-medio','label' => 'Peso:'));
+			echo $this->Form->input('Pessoa.idade',array('id' =>'pessoaIdade_cliente','class' => 'tamanho-medio','label' => 'Idade:'));
+
+		?>
+	</section>
+
+</fieldset>
+
+</section><!---Fim section superior--->
+
+
+<section> <!---section Inferior--->
+
+	<header></header>
+
+<fieldset>
+	<legend><?php echo __('Dados Usuario'); ?></legend>
+
+	<section class="coluna-esquerda">
+		<?php
+			echo $this->Form->input('User.pessoa_id',array('type' => 'hidden'));
+			echo $this->Form->input('User.username',array('id' =>'userUsuario_cliente','class' => 'tamanho-medio','label' => 'Usuario:'));
+			echo $this->Form->input('User.password',array('id' =>'userSenha_cliente','class' => 'tamanho-medio','label' => 'Senha:'));
+			//echo $this->Form->input('User.status',array('id' =>'userStatus_cliente','class' => 'tamanho-medio','label' => 'Status:'));
+		?>
+	</section>
+
+	<section class="coluna-central" >
+		<?php
+			echo $this->Form->input('User.role',array('id' =>'userPermissao_cliente','class' => 'tamanho-medio','label' => 'Permissão:','type' => 'select','options' => array('','admin' => 'Admin', 'user' => 'Usuario')));
+		?>
+	</section>
+
+	<section class="coluna-direita" >
+		<?php
+			echo $this->Form->input('User.ativo',array('id' =>'userAtivo_cliente','class' => 'tamanho-medio','label' => 'Ativo:','type' =>'select','options' =>array('','Sim','Não')));
+		?>
+	</section>
+
+</fieldset>
+
+<footer>
+	<input class="bt-salvar" type="submit" value="Salvar">
 	<?php
-		echo $this->Form->input('Titular',array('id' =>'titular_cliente','label' => 'Titular:'));
-		echo $this->Form->input('bloqueado',array('id' =>'bloquado_cliente','label' => 'Blooqueado:'));
+		echo $this->Form->end(); 
 	?>
-	</fieldset>
-
-	<!--Cadastro Pessoa -->
-	<fieldset>
-		<legend><?php echo __('Pessoa'); ?></legend>
-	<?php
-		echo $this->Form->input('Pessoa.nome',array('id' =>'pessoaNome_cliente','label' => 'Nome:'));
-		echo $this->Form->input('Pessoa.cpf_cnpj',array('id' =>'pessoaCpfCnpj_cliente','label' => 'Cpf/Cnpj:'));
-		echo $this->Form->input('Pessoa.rg',array('id' =>'pessoaRg_cliente','label' => 'Rg:'));
-		echo $this->Form->input('Pessoa.numeroPronturario',array('id' =>'pessoaNumeroPronturario_cliente','label' => 'Numero Pronturario:'));
-		echo $this->Form->input('Pessoa.estadoCivil',array('id' =>'pessoaEstadoCivil_cliente','label' => 'Estado Civil:'));
-		echo $this->Form->input('Pessoa.dataNascimento',array('id' =>'pessoaDataNascimento_cliente','label' => 'Data Nascimento:'));
-		echo $this->Form->input('Pessoa.escolaridade',array('id' =>'pessoaEscolaridade_cliente','label' => 'Escolaridade:'));
-		echo $this->Form->input('Pessoa.profissao',array('id' =>'pessoaProfissao_cliente','label' => 'Profissao:'));
-		echo $this->Form->input('Pessoa.peso',array('id' =>'pessoaPeso_cliente','label' => 'Peso:'));
-		echo $this->Form->input('Pessoa.altura',array('id' =>'pessoaAltura_cliente','label' => 'Altura:'));
-		echo $this->Form->input('Pessoa.sexo',array('id' =>'pessoaSexo_cliente','label' => 'Sexo:'));
-		echo $this->Form->input('Pessoa.idade',array('id' =>'pessoaIdade_cliente','label' => 'Idade:'));
-		echo $this->Form->input('Pessoa.filiacao',array('id' =>'pessoaFiliacao_cliente','label' => 'Filiação:'));
-	?>
-	</fieldset>
-
-	<!--Cadastro Usuario -->
-	<fieldset>
-		<legend><?php echo __('User'); ?></legend>
-	<?php
-		echo $this->Form->input('User.pessoa_id',array('type' => 'hidden'));
-		echo $this->Form->input('User.username',array('id' =>'userUsuario_cliente','label' => 'Usuario:'));
-		echo $this->Form->input('User.password',array('id' =>'userSenha_cliente','label' => 'Senha:'));
-		echo $this->Form->input('User.role',array('id' =>'userPermissao_cliente','label' => 'Permissão:'));
-		echo $this->Form->input('User.ativo',array('id' =>'userAtivo_cliente','label' => 'Ativo:'));
-		echo $this->Form->input('User.status',array('id' =>'userStatus_cliente','label' => 'Status:'));
-	?>
-	</fieldset>
-
-<?php echo $this->Form->end(__('Submit')); ?>
-<!--
-</div>
-
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Clientes'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List clientes'), array('controller' => 'clientes', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New cliente'), array('controller' => 'clientes', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
--->
+</footer>
+</section><!---Fim section Inferior--->
