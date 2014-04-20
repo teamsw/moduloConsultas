@@ -46,7 +46,7 @@
 	<header></header>
 
 <fieldset>
-	<legend><?php echo __('Dados Profissionais'); ?></legend>
+	<legend><?php echo __('Dados Profissional'); ?></legend>
 
 	<section class="coluna-esquerda">
 		<?php
@@ -77,25 +77,25 @@
 	<header></header>
 
 <fieldset>
-	<legend><?php echo __('Dados Usuarios'); ?></legend>
+	<legend><?php echo __('Dados Usuario'); ?></legend>
 
 	<section class="coluna-esquerda">
 		<?php
 			echo $this->Form->input('User.pessoa_id',array('type' => 'hidden'));
 			echo $this->Form->input('User.username',array('id' =>'userUsuario_funcionario','class' => 'tamanho-medio','label' => 'Usuario:'));
-			echo $this->Form->input('User.status',array('id' =>'userStatus_funcionario','class' => 'tamanho-medio','label' => 'Status:'));
+			echo $this->Form->input('User.password',array('id' =>'userSenha_funcionario','class' => 'tamanho-medio','label' => 'Senha:'));
+			//echo $this->Form->input('User.status',array('id' =>'userStatus_funcionario','class' => 'tamanho-medio','label' => 'Status:'));
 		?>
 	</section>
 
 	<section class="coluna-central" >
 		<?php
-			echo $this->Form->input('User.password',array('id' =>'userSenha_funcionario','class' => 'tamanho-medio','label' => 'Senha:'));
+			echo $this->Form->input('User.role',array('id' =>'userPermissao_funcionario','class' => 'tamanho-medio','label' => 'Permissão:','type' => 'select','options' => array('','admin' => 'Admin', 'user' => 'Usuario')));
 		?>
 	</section>
 
 	<section class="coluna-direita" >
 		<?php
-			echo $this->Form->input('User.role',array('id' =>'userPermissao_funcionario','class' => 'tamanho-medio','label' => 'Permissão:'));
 			echo $this->Form->input('User.ativo',array('id' =>'userAtivo_funcionario','class' => 'tamanho-medio','label' => 'Ativo:','type' =>'select','options' =>array('','Sim','Não')));
 		?>
 	</section>

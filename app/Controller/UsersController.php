@@ -15,6 +15,27 @@ class UsersController extends AppController {
  */
 	public $components = array('Paginator');
 
+
+	public function beforeFilter() {
+	    parent::beforeFilter();
+	    $this->Auth->allow('add'); 
+	}
+
+	public function login(){
+		$this->layout = 'login';
+		if ($this->Auth->login()) {
+        $this->redirect($this->Auth->redirect());
+    }elseif((!$this->Auth->login()) && ($this->request->is('post'))){
+			$this->Session->setFlash(__('Usuario ou senha invalidos'));
+
+		}
+	}
+
+	public function logout(){
+		$this->redirect($this->Auth->logout());
+	}
+
+
 /**
  * index method
  *
@@ -57,7 +78,6 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
 		}
-		$pessoas = $this->User->Pessoa->find('list');
 		$this->set(compact('pessoas'));
 	}
 

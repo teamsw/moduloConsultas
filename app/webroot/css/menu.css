@@ -24,8 +24,8 @@ ul > li{
     text-align:center;
 }
 
-ul > li:first-child{
-    margin-left:53%;
+#primeiro{
+    margin-left:33%;
 }
 
 ul > li:hover{
@@ -49,8 +49,10 @@ li ol{
     margin-left: -1px;
     display: none;
     border: 1px solid #CCC;
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.56);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
     position: absolute;
+    margin-top: -6px;
+    z-index: 5;
 }
 
 
@@ -68,4 +70,12 @@ ol a{
 
 ol a:hover{
     background: #AAA;
+}
+
+#nomeUsuario{
+    float: left;
+    margin-top: 16px;
+    margin-left: 45px;
+    color: #FFF;
+    font-size: 16px;
 }

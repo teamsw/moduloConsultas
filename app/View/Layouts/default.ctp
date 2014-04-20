@@ -32,53 +32,65 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<header id="topo"></header>
 		<nav>
-		<ul id="menu">
-			<li>
-			<a href="#">Home</a>
-			</li>
+			<ul id="menu">				
+				<div id="nomeUsuario">
+					<?php if($logged_in): ?>
+						Bem-vindo <?php echo $current_user['username']; ?>
+					<?php endif; ?>  
+				</div>
 
-			<li>
-			<span>Agenda</span>
-			<ol>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-				<li><a href="#">Link 4</a></li>
-				<li><a href="#">Link 5</a></li>
-			</ol>
-			</li>
+				<li id="primeiro">
+					<a href="#">Home</a>
+				</li>
 
-		<!--
-			<li>
-			<a href="#">Segundo</a>
-			</li>
-		-->
+				<li>
+				<span>Agenda</span>
+				<ol>
+					<li><a href="<?php echo $this->html->url(array('controller' => '','action' => 'add')); ?>">link1</a></li>
+					<li><a href="<?php echo $this->html->url(array('controller' => '','action' => 'add')); ?>">link2</a></li>
+					<li><a href="<?php echo $this->html->url(array('controller' => '','action' => 'add')); ?>">link3</a></li>
+				</ol>
+				</li>
 
-			<li>
-			<span>Consultas</span>
-			<ol>
-				<li><a href="#">Link 6</a></li>
-				<li><a href="#">Link 7</a></li>
-				<li><a href="#">Link 8</a></li>
-			</ol>
+			<!--
+				<li>
+				<a href="#">Segundo</a>
+				</li>
+			-->
 
-			</li>
-		<!--
-			<li><a href="#">Quarto</a></li>
-		-->
+				<li>
+				<span>Consultas</span>
+				<ol>
+					<li><a href="#">Link 6</a></li>
+					<li><a href="#">Link 7</a></li>
+					<li><a href="#">Link 8</a></li>
+				</ol>
 
-			<li class="selected">
-			<span>Cadastro</span>
-			<ol>
-				<li><a href="#">Link 9</a></li>
-				<li><a href="#">Link 10</a></li>
-				<li><a href="#">Link 11</a></li>
-				<li><a href="#">Link 12</a></li>
-				<li><a href="#">Link 13</a></li>
-			</ol>
-			</li>
-		</ul>
-	</nav>
+				</li>
+			<!--
+				<li><a href="#">Quarto</a></li>
+			-->
+
+				<li class="selected">
+				<span>Cadastro</span>
+				<ol>
+					<li><a href="<?php echo $this->html->url(array('controller' => 'users','action' => 'add')); ?>">Usuarios</a></li>
+					<li><a href="<?php echo $this->html->url(array('controller' => 'funcionarios','action' => 'add')); ?>">Funcionarios</a></li>
+					<li><a href="<?php echo $this->html->url(array('controller' => 'clientes','action' => 'add')); ?>">Clientes</a></li>
+				</ol>
+				</li>
+				
+				<li>
+				<?php if($logged_in): ?>
+	            	<?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout')); ?>
+	            <?php else: ?>
+	                <?php echo $this->Html->link('Login', array('controller' => 'users', 'action' => 'login')); ?>
+	            <?php endif; ?>  
+
+				</li>
+
+			</ul>
+		</nav>
 
 	<section id="content">
 
